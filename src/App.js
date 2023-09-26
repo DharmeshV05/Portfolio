@@ -17,7 +17,7 @@ function App() {
   }, []);
   return (
     <div className="bg-[#282C33]">
-      {/* react-router-dom */}
+{/* react-router-dom */}
       <Navbar />
       <Routes>
         {/* HOME PAGE */}

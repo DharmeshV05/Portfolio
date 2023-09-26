@@ -1,0 +1,77 @@
+/* Navbar.css */
+
+/* Mobile Menu Button Styles */
+.menu-btn {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .menu-icon {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+    transition: 0.4s;
+  }
+  
+  .menu-icon.open .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 5px);
+  }
+  
+  .menu-icon.open .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .menu-icon.open .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -5px);
+  }
+  
+  /* Navigation Links Styles */
+  .menu {
+    flex-direction: column;
+    background-color: #282c33;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    bottom: 0;
+    width: 80%;
+    max-width: 300px;
+    height: 100%;
+    transition: 0.4s;
+  }
+  
+  .menu.open {
+    right: 0;
+  }
+  
+  .nav-item {
+    list-style: none;
+    text-align: right;
+    margin: 20px 0;
+    font-size: 24px;
+  }
+  
+  .nav-text {
+    color: #c778dd;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  /* Media Query for Larger Screens */
+  @media (min-width: 768px) {
+    .menu {
+      position: static;
+      flex-direction: row;
+      background-color: transparent;
+      width: auto;
+      max-width: none;
+      height: auto;
+      transition: none;
+    }
+  
+    .nav-item {
+      margin: 0 20px;
+    }
+  }
+  
