@@ -2,7 +2,7 @@ import React from "react";
 import SmallProjects from "../components/small_projects/Small_projects";
 import CompleteApps from "../components/complete-apps/Complete_apps";
 
-const ProjectPage = () => {
+const AllProjects = () => {
   return (
     <>
       <SmallProjects />
@@ -11,4 +11,4 @@ const ProjectPage = () => {
   );
 };
 
-export default ProjectPage;
+export default AllProjects;

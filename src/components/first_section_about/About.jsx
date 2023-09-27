@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import "./about.css";
 
 const About = () => {
@@ -12,9 +13,11 @@ const About = () => {
           <p className="text-[#ABB2BF] my-6">
             He crafts responsive websites where technologies meet creativity
           </p>
-          <button className="text-white font-medium py-2 px-4 border duration-200 border-[#C778DD] hover:bg-[#C778DD33]">
-            Contact me!!
-          </button>
+          <Link to="/contact">
+  <button className="text-white font-medium py-2 px-4 border duration-200 border-[#C778DD] hover:bg-[#C778DD33]">
+    Contact Me!!
+  </button>
+</Link>
         </div>
         <div  data-aos="fade-left" data-aos-delay="400" className="mx-auto">
           <div className="">

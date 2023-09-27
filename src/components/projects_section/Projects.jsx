@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Project_card from "../project_card/Project_card";
 import first from "./imgs/me.jpeg";
 import second from "./imgs/frontend.png";
@@ -39,11 +40,14 @@ const Projects = () => {
             <div className="line w-2/3 h-px bg-[#C778DD]"></div>
           </div>
           {/* right */}
-          <div className=" text-white font-medium">
-            <a href="">
-              <span>View all ~~&gt;</span>
-            </a>
-          </div>
+         
+          <Link to="/projects"> {/* Link to the updated route */}
+  <button className="text-white font-medium py-2 px-4 border duration-200 border-[#C778DD] hover:bg-[#C778DD33]">
+    View All
+  </button>
+</Link>
+
+          
         </div>
         {/* bottom */}
         <div className="flex flex-wrap justify-between gap-4 my-12">
