@@ -29,13 +29,13 @@ const Footer = () => {
             <h2 className=" text-white text-2xl font-medium mb-3">Media</h2>
             {/* media */}
             <div className="flex items-center gap-2">
-              <a href="#">
+              <a href=".">
                 <img src={require("./imgs/Discord.png")} alt="" />
               </a>
-              <a href="#">
+              {/* <a href="#">
                 <img src={require("./imgs/Figma.png")} alt="" />
-              </a>
-              <a href="#">
+              </a> */}
+              <a href=".">
                 <img src={require("./imgs/Github.png")} alt="" />
               </a>
             </div>
