@@ -1,12 +1,31 @@
+/* Importing Fira Code font and setting up Tailwind CSS base, components, and utilities. */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-*{
+/* Applying global styles with responsive adjustments. */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Fira Code', monospace;
-    
+}
+
+/* Applying mobile-first responsive design. */
+@media (min-width: 640px) {
+    /* Increase font size and adjust padding for larger screens. */
+    * {
+        font-size: 16px;
+    }
+    /* Add more responsive styles here if needed. */
+}
+
+/* Applying desktop-specific styles. */
+@media (min-width: 1024px) {
+    /* Example: Increase padding or adjust layout for desktop. */
+    .some-element {
+        padding: 20px;
+    }
+    /* Add more desktop-specific styles here. */
 }
