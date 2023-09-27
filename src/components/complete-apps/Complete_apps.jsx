@@ -16,6 +16,7 @@ const Complete_apps = () => {
             langs: ["html", "css", "javascript", "react"],
             title: "Theme-Web",
             disc: "Theme Website Responsive ",
+            
         },
         {
             img: second,
@@ -68,6 +69,7 @@ const Complete_apps = () => {
                         <span className=" text-[#C778DD]">#</span>
                         <span>complete-apps</span>
                     </div>
+                    
                     {/* projects */}
                     <div className="flex flex-wrap justify-start  gap-4 my-12">
                         {/* cards */}

@@ -18,19 +18,19 @@ const Fun_facts = () => {
                         I often bike with my friends
                     </div>
                     <div className="fact border border-[#ABB2BF] p-2 text-[#ABB2BF] text-base font-normal">
-                        I was in Egypt, Poland and Turkey
+                        I was in nepal, kathmandu
                     </div>
                     <div className="fact border border-[#ABB2BF] p-2 text-[#ABB2BF] text-base font-normal">
-                        I’m still studing in school
+                        I’m still studing in college
                     </div>
                     <div className="fact border border-[#ABB2BF] p-2 text-[#ABB2BF] text-base font-normal">
-                        I’m still studing in school
+                        I’m still studing 
                     </div>
                     <div className="fact border border-[#ABB2BF] p-2 text-[#ABB2BF] text-base font-normal">
-                        My favorite movie is The Green Mile
+                        My favorite movie is Final Destination
                     </div>
                     <div className="fact border border-[#ABB2BF] p-2 text-[#ABB2BF] text-base font-normal">
-                        I don’t have any siblings
+                        I  have Two siblings
                     </div>
                 </div>
                 {/* right */}
