@@ -1,7 +1,7 @@
 import Project_card from "../project_card/Project_card";
-import first from "./imgs/Rectangle 22.jpg";
-import second from "./imgs/Rectangle 22.png";
-import third from "./imgs/Rectangle 22 (1).png";
+import first from "./imgs/me.jpeg";
+import second from "./imgs/frontend.png";
+import third from "./imgs/travel.png";
 
 const Projects = () => {
   // date
@@ -9,20 +9,20 @@ const Projects = () => {
     {
       img: first,
       langs: ["html", "css", "javascript", "react", "tailwind css"],
-      title: "ChertNodes",
-      disc: "Minecraft servers hosting ",
+      title: "Portfolio",
+      disc: "This is a portfolio which is hosted in Vercel",
     },
     {
       img: second,
-      langs: ["html", "css", "javascript", "Node.js"],
-      title: "ProtectX",
-      disc: "Discord anti-crash bot ",
+      langs: ["html", "css", "javascript", "react"],
+      title: "Frontend page",
+      disc: "This is Frontend landing page with responsive ",
     },
     {
       img: third,
-      langs: ["html", "css", "javascript", "Node.js", "python"],
-      title: "Kahoot Answers Viewer",
-      disc: "Get answers to your kahoot quiz ",
+      langs: ["html", "css", "javascript", "react"],
+      title: "Travel-spot",
+      disc: "this is just a detail of travel areas ",
     },
   ];
 

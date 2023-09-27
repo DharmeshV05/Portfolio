@@ -4,7 +4,7 @@ import first from "../about_page_about_section/imgs/1.jpeg";
 import second from "../about_page_about_section/imgs/2.jpeg";
 import third from "../about_page_about_section/imgs/3.jpeg";
 import forth from "../about_page_about_section/imgs/4.jpeg";
-import fifth from "./imgs/Rectangle 22.png";
+import fifth from "../about_page_about_section/imgs/me.jpeg";
 import Project_card from '../project_card/Project_card';
 
 const Complete_apps = () => {
