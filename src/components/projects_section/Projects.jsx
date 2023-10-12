@@ -29,7 +29,7 @@ const Projects = () => {
 
   return (
     <>
-      <div className="px-5 max-w-[1080px] mx-auto mt-20 py-10">
+      <div className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
         {/* top */}
         <div className=" flex justify-between items-center gap-5">
           {/* left */}

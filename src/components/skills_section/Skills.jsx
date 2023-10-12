@@ -36,7 +36,7 @@ const Skills = () => {
   ];
   return (
     <>
-      <div className="px-5 max-w-[1080px] mx-auto mt-20 py-10">
+      <div className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
         {/* top */}
         <div data-aos = "fade-left" className=" mb-10">
           <div className=" text-white w-2/3 font-medium text-[32px] flex items-center gap-2">

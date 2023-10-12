@@ -1,7 +1,7 @@
 const AboutSec = () => {
   return (
     <>
-      <div className="px-5 max-w-[1080px] mx-auto mt-20 py-10">
+      <div className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
         {/* bottom */}
         <div className=" flex-wrap flex items-center justify-between">
           {/* left */}

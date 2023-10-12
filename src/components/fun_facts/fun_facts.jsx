@@ -2,7 +2,7 @@ import React from 'react'
 
 const Fun_facts = () => {
     return (
-        <div className='px-5 max-w-[1080px] mx-auto pt-20 py-10'>
+        <div className='px-5 max-w-[1560px] mx-auto pt-20 py-10'>
             {/* title */}
             <div className=" mb-12 text-[32px] font-medium text-white">
                 <span className='text-[#C778DD]'>#</span>
