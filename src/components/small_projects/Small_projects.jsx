@@ -48,7 +48,7 @@ const Small_projects = () => {
     ]
     // you will write dates by yourselves
     return (
-        <div className=' pt-[80px] px-5 max-w-[1560px] mx-auto'>
+        <div className=' pt-[80px] px-5 max-w-[1080px] mx-auto'>
             {/* title */}
             <div className="">
                 <div className=" text-white font-medium mt-[68px] mb-[48px] text-[32px]">

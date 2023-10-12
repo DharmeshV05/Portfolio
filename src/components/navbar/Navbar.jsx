@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <>
       <div data-aos='fade-down' className="fixed top-0 left-0 right-0 bg-[#282C33]">
-        <div className=" px-5 max-w-[1560px] mx-auto flex items-center justify-between pt-6 my-2">
+        <div className=" px-5 max-w-[1080px] mx-auto flex items-center justify-between pt-6 my-2">
           <div className="left flex gap-2 items-center font-bold text-white text-base">
             {/* logo */}
             <div className="img">

@@ -51,7 +51,7 @@ const Complete_apps = () => {
     ];
     return (
         <div>
-            <div className=" pt-[114px] px-5 max-w-[1560px] mx-auto">
+            <div className=" pt-[114px] px-5 max-w-[1080px] mx-auto">
                 {/* top / title */}
                 <div className="">
                     {/* projects */}
